@@ -1,4 +1,4 @@
-# Stage-02_Desafio_avancado
+# Stage-02 Desafio avançado
 Recriar uma aplicação, a partir de um layout,
 
 ## Screenshots
