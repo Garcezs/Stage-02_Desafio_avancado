@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    min-height: 100vh;    
+    background: #2C2B3D;
+
+    color: #FFF;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.page {
+    width: 1280px;
+    margin: 0 auto;
+    padding-top: 71px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    Align-items: center;
+    width: 1083px;
+    height: 30px;
+    margin: 0 auto 100px;
+}
+
+main {
+    display: flex;	
+    width: 1092px;
+    text-align: center;
+    margin: auto;
+    gap: 83px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.img {
+
+    margin: auto;
+    width: 401px;
+    height: 283px;
+    left: 99px;
+    top: 202px;
+}
+
+section{
+    margin: auto
+}
+
+section p {
+    font-family: 'Open Sans', sans-serif;
+    color: #C2C2C2;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+
+}
+
+nav ul li a {
+    font-weight: normal;
+    font-weight: 500;
+    font-size: 14px;
+
+    text-align: center;
+    line-height: 28px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+nav ul li a:hover {
+
+    font-weight: 500;
+    line-height: 28px;
+    font-size: 14px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-fill-color: #ffffff;
+    text-shadow: 2px 2px 0px #000000;    
+}
+
+ul {
+    list-style: none;
+
+    display: flex;
+    gap: 48px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+}
+
+span{
+    color: #00BFA6;
+    font-weight: bold;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.line {
+    width: 568px;
+    height: 0px;
+    border: 1px solid #00BFA6;
+}
+
+footer {
+    font-size: 14px;
+    line-height: 28px;
+    margin-top: 157px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    gap: 27px;
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+footer a:hover {
+
+    font-weight: 500;
+    line-height: 28px;
+    font-size: 14px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #00BFA6;
+    -webkit-text-fill-color: #ffffff;
+    text-shadow: 1px 1px 0px #00BFA6;
+}
+
+.padlock {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
